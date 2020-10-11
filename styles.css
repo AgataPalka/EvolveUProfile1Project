@@ -24,28 +24,31 @@
 
 div.header-text {
   font-size: 25px;
-  padding-top: 80%;
+  padding-top: 300px;
 }
-div.dropdown, div.dropbtn {
-  font-size: 10px;
+.buttonText, div.dropbtn {
+  font-size: 20px;
 }
 
 #about-section {
 flex-direction:column;
-padding: 5%;
 width: 100%;
 }
 
 .about-image img {
   height: auto;
-  width: 300px;
+  width: 317px;
 }
-
-.intro-text, .intro-title {
+div.intro-title {
   font-size: 20px;
 }
-.values-types {
-  font-size: 30px;
+div.intro-text {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+div.values-types {
+  font-size: 35px;
 }
 .section-title h2 {
   font-size: 30px;
@@ -233,17 +236,17 @@ button.download-resume {
   font-size: 20px;
   background-color: peachpuff;
   border: none;
-  outline-color: whitesmoke;
+  outline-color: peachpuff;
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
   color: black; 
 }
 
-button.download-resume:hover {
+/*button.download-resume:hover {
   background-color: whitesmoke;
   border: none;
-}
+}*/
 
 .footer {
   background-color:#f1b053;
