@@ -50,15 +50,22 @@ div.intro-text {
 div.values-types {
   font-size: 35px;
 }
-.section-title h2 {
+hr {
+  margin-inline-start: 0.5em;
+}
+div.section-title h2 {
   font-size: 30px;
 }
 
-.footer-text {
+div.film {
+  padding:40px;
+}
+
+div.footer-text {
   padding-left: 30%;
 }
 
-#footer-contact {
+ul#footer-contact.flex-container {
   margin-left: 40px;
 }
 }
