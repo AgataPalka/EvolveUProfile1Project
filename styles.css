@@ -24,7 +24,7 @@
 
 div.header-text {
   font-size: 25px;
-  padding-top: 300px;
+  padding-top: 350px;
 }
 
 div.dropdown {
@@ -60,6 +60,14 @@ div.section-title h2 {
 
 div.film {
   padding:40px;
+  flex: 10%;
+}
+
+div.film p, div.admin p, div.customer p {
+  font-size: 17px;
+}
+button.download-resume {
+  transition: transform .5s ease;
 }
 
 div.footer-text {
