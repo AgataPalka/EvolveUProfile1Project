@@ -58,19 +58,13 @@ div.section-title h2 {
   font-size: 30px;
 }
 
-div.film {
+div.film, div.admin, div.customer {
   padding:40px;
   flex: 10%;
 }
 
 div.film p, div.admin p, div.customer p {
-  font-size: 17px;
-}
-button.download-resume {
-  transition: transform .5s ease;
-}
-button.download-resume:hover {
-  transform: scale(1.1);
+  font-size: 16px;
 }
 
 div.footer-text {
@@ -114,7 +108,7 @@ body {
   padding: 20px;
   border: none;
   font-family: LifeRegular;
-  font-size: 25px;
+  font-size: 20px;
   animation: backInLeft;
   animation-duration: 2s; 
 }
