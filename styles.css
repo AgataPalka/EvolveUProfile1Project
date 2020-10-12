@@ -69,6 +69,9 @@ div.film p, div.admin p, div.customer p {
 button.download-resume {
   transition: transform .5s ease;
 }
+button.download-resume:hover {
+  transform: scale(1.1);
+}
 
 div.footer-text {
   padding-left: 30%;
