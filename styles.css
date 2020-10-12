@@ -26,8 +26,9 @@ div.header-text {
   font-size: 25px;
   padding-top: 300px;
 }
-.buttonText, div.dropbtn {
-  font-size: 20px;
+
+div.dropdown {
+  display: none;
 }
 
 #about-section {
@@ -70,7 +71,6 @@ ul#footer-contact.flex-container {
 }
 }
 
-  
 
 body {
   margin: 0;
@@ -97,30 +97,6 @@ body {
   animation-duration: 2s;
 }
 
-/*.sidenav {
-  float: left;
-  position: fixed;
-  width: 130px;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: none;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  color: black;
-  display: block;
-  font-family: LifeRegular;
-  animation: backInLeft;
-  animation-duration: 2s;
-}*/
-
 .dropbtn {
   background-color: inherit ;
   color: black;
@@ -130,6 +106,10 @@ body {
   font-size: 25px;
   animation: backInLeft;
   animation-duration: 2s; 
+}
+.dropbtn:focus {
+  outline: none;
+  border: none;
 }
 
 .dropdown {
@@ -247,7 +227,17 @@ button.download-resume {
   cursor: pointer;
   border-radius: 5px;
   color: black; 
+  transition: transform .5s ease;
 }
+
+button.download-resume:hover{
+  transform: scale(1.1);
+}
+
+button.download-resume:focus {
+  outline: none;
+  border: none;
+  }
 
 /*button.download-resume:hover {
   background-color: whitesmoke;
