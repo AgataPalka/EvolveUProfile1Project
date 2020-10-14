@@ -1,7 +1,7 @@
 
 
-@font-face {
-  font-family: KronaOne;
+@font-face { 
+  font-family: KronaOne; 
   src: url('Fonts/KronaOne-Regular.ttf');
 }
 
@@ -27,9 +27,9 @@ div.header-text {
   padding-top: 350px;
 }
 
-div.dropdown {
+/*div.dropdown {
   display: none;
-}
+}*/
 
 #about-section {
 flex-direction:column;
@@ -40,9 +40,11 @@ width: 100%;
   height: auto;
   width: 317px;
 }
+
 div.intro-title {
   font-size: 20px;
 }
+
 div.intro-text {
   font-size: 25px;
   margin-left: 15px;
@@ -51,9 +53,11 @@ div.intro-text {
 div.values-types {
   font-size: 35px;
 }
+
 hr {
   margin-inline-start: 0.5em;
 }
+
 div.section-title h2 {
   font-size: 30px;
 }
