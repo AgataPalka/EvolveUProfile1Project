@@ -27,16 +27,23 @@ div.header-text {
   padding-top: 350px;
 }
 
-.dropdown {
+div.dropdown {
   position: fixed;
   background-color:#ACDBD3;
   top: 0px;
   width: 100%;
 }
 
-.dropdown-content {
-  position: fixed;
-  overflow: hidden;
+button.dropbtn {
+  padding: 15px;
+}
+
+div.dropdown-content {
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  background: inherit;
+
 }
 .dropdown a {
   float: left;
