@@ -225,7 +225,7 @@ button.download-resume {
   font-family: LifeRegular;
   font-size: 20px;
   border: none;
-  background-color: peachpuff;
+  background-color: #f3bd71;
   outline-color: peachpuff;
   border-style: none;
   text-align: center;
@@ -236,7 +236,7 @@ button.download-resume {
 }
 
 button.download-resume:hover{
-  transform: scale(1.1);
+  transform: scale(1.2); 
 }
 
 button.download-resume:focus {
@@ -244,13 +244,8 @@ button.download-resume:focus {
   border: none;
   }
 
-/*button.download-resume:hover {
-  background-color: whitesmoke;
-  border: none;
-}*/
-
 .footer {
-  background-color:#f1b053;
+  background-color:#F49A1C;
   padding-bottom: 25px;
   padding-top: 5px;
   height: 80px;
