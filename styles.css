@@ -40,7 +40,7 @@ button.dropbtn {
 
 div.dropdown-content {
   position: absolute;
-  overflow: auto;
+  overflow: auto ;
   width: 100%;
   background: inherit;
 
