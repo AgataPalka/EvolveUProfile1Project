@@ -44,23 +44,19 @@ strong.buttonText{
 }
 
 div.dropdown-content {
+  display: none;
   position: absolute;
-  overflow: auto ;
   width: 100%;
   background: inherit;
   margin-top: -0.5%;
-
-}
-.dropdown a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
+  padding-left: 10px;
 }
 .dropdown-content a {
+  float: left;
+  color: black;
+  padding: 15px;
   font-size: 15px;
+  text-decoration: none;
 }
 
 .dropdown-content a:hover {
@@ -71,11 +67,14 @@ div.dropdown-content {
 #about-section {
 flex-direction:column;
 width: 100%;
+
 }
+
 
 .about-image img {
   height: auto;
   width: 317px;
+  padding-top: 20px;
 }
 
 div.intro-title {
