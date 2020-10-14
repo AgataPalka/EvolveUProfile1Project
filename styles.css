@@ -66,6 +66,7 @@ div.dropdown-content a {
 #about-section {
 flex-direction:column;
 width: 100%;
+padding-top: 15%;
 }
 
 .about-image img {
@@ -93,6 +94,9 @@ hr {
 
 div.section-title h2 {
   font-size: 30px;
+}
+#experience {
+  padding-top: 16%;
 }
 
 div.film h3, div.admin h3, div.customer h3 {
