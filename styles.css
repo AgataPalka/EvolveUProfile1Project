@@ -27,9 +27,29 @@ div.header-text {
   padding-top: 350px;
 }
 
-/*div.dropdown {
-  display: none;
-}*/
+.dropdown {
+  position: fixed;
+  background-color:#ACDBD3;
+  top: 0px;
+  width: 100%;
+}
+
+.dropdown-content {
+  position: fixed;
+  overflow: hidden;
+}
+.dropdown a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: inherit;
+  text-decoration: underline;
+}
 
 #about-section {
 flex-direction:column;
@@ -62,9 +82,8 @@ div.section-title h2 {
   font-size: 30px;
 }
 
-div.film, div.admin, div.customer {
-  padding:40px;
-  flex: 10%;
+div.film h3, div.admin h3, div.customer h3 {
+  font-size: 20px;
 }
 
 div.film p, div.admin p, div.customer p {
