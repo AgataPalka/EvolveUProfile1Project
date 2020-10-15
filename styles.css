@@ -60,7 +60,7 @@ div.dropdown-content a {
   text-decoration: none;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:focus {
   background-color: inherit;
   text-decoration: underline;
 }
