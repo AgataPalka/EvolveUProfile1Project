@@ -53,7 +53,7 @@ div.dropdown-content {
   z-index: 1;
 }
 .dropdown:hover .dropdown-content {
-  display: inline-block;
+  display: hidden;
 }
 div.dropdown-content a {
   float: left;
