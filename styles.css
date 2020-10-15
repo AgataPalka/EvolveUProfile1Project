@@ -44,17 +44,15 @@ strong.buttonText{
 }
 
 div.dropdown-content {
-  display: hidden;
+  display: none;
   position: absolute;
   width: 100%;
   background: inherit;
   margin-top: -0.5%;
   padding-left: 15px;
-  z-index: 1;
+  z-index: 0;
 }
-.dropdown:hover .dropdown-content {
-  display: hidden;
-}
+
 div.dropdown-content a {
   float: left;
   color: black;
