@@ -44,12 +44,16 @@ strong.buttonText{
 }
 
 div.dropdown-content {
-  display: none;
+  display: hidden;
   position: absolute;
   width: 100%;
   background: inherit;
   margin-top: -0.5%;
   padding-left: 15px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: inline-block;
 }
 div.dropdown-content a {
   float: left;
@@ -94,9 +98,6 @@ hr {
 
 div.section-title h2 {
   font-size: 30px;
-}
-#experience {
-  padding-top: 16%;
 }
 
 div.film h3, div.admin h3, div.customer h3 {
