@@ -212,7 +212,7 @@ body {
 }
 
 .intro-text {
-  text-align: left;
+  text-align: center;
   font-family: Annie;
   font-size: 27px;
 }
@@ -220,7 +220,7 @@ body {
 .values-types {
   font-family: PoiretOne;
   text-align: center;
-  font-size: 37px;
+  font-size: 40px;
 }
 
 .about-image {
